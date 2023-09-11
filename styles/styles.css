@@ -14,7 +14,7 @@ body {
     /* min-height: 100vh; */
     margin: 0;
     position: relative;
-    font-family: 'Roboto Condensed', sans-serif;    background-color: #183a37;
+    font-family: 'Roboto Condensed', sans-serif;    
     color: #EFE9F4;
     background-color: #171738;
 }
@@ -40,14 +40,16 @@ h1{
     justify-content: flex-start;
 }
 
+
 .webName{
     font-family: 'Italiana', serif;
     text-align: left;
     font-size: 2rem;
     color: white;
     position: fixed;
-    top: 0;
+    top: 20px;
     z-index: 99;
+    text-decoration: none;
 }
 
 
@@ -70,16 +72,6 @@ nav {
 
   }
 
-.collections{
-    text-decoration: none;
-    color: white;
-    justify-content: flex-start;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-right: 50%;
-;}
-
-
 .logIn{
     text-decoration: none;
     color: white;
@@ -99,6 +91,38 @@ nav {
     padding-right: 10px;
     margin: 10px;
 }
+
+.bose{
+    text-decoration: none;
+    color: white;
+    align-self: right;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.beats{
+    text-decoration: none;
+    color: white;
+    align-self: right;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sony{
+    text-decoration: none;
+    color: white;
+    align-self: right;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
+
 
 .container2{
     background: #7180B9;
