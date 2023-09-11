@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: auto;
+    /* min-height: 100vh; */
+    margin: 0;
+    position: relative;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #EFE9F4;
+    background-color: #171738;
+}
+
+h1 {
+    font-family: 'Italiana', serif;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.container01 {
+    border-radius: 10px;
+    width: 100vw;
+    padding: 20px;
+    margin: 15px;
+}
+
+.webName{
+    font-family: 'Italiana', serif;
+    text-align: left;
+    font-size: 2rem;
+    color: white;
+    position: fixed;
+    top: 20px;
+    z-index: 99;
+    text-decoration: none;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    font-size: 16px;
+    width: 45%;
+    height: 50px;
+    right: 15px;
+    top: 15px;
+    border-radius: 10px;
+    z-index: 99;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    font-family: 'Italiana', serif;
+}
+
+
+
+
+.logIn {
+    text-decoration: none;
+    color: white;
+    align-self: right;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.openAcc {
+    background: #3423a6;
+    color: white;
+    padding: 12px;
+    border-radius: 20px;
+    text-decoration: none;
+    align-self: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+}
+
+.bose{
+    text-decoration: none;
+    color: white;
+    align-self: right;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.beats{
+    text-decoration: none;
+    color: white;
+    align-self: right;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sony{
+    text-decoration: none;
+    color: white;
+    align-self: right;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.topPart {
+    background-color: #3423a6;
+    width: 100vw;
+    height: 250px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.boseHeading {
+    font-size: 4rem;
+}
+
+
+.productList {
+    width: 100vw;
+    font-size: 1.5rem;
+    font-family: 'Italiana', serif;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.images {
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    display: block;
+    align-content: center;
+    align-items: center;
+    object-fit: contain;
+    transition: transform 2s;
+    background: white;
+    margin: 20px;
+}
+
+.bosePic {
+    width: 250px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 25px;
+    transition: transform 2s;
+}
+
+.images:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.textLink {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+
+.comingSoon {
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+.footer {
+    background: #3423a6;
+    color: white;
+    bottom: 0px;
+    width: 100vw;
+    height: 55px;
+    text-align: right;
+    font-family: 'Italiana', serif;
+    font-size: 1.5rem;
+    padding: 10px;
+
+}

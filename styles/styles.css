@@ -116,14 +116,6 @@ nav {
     padding-right: 10px;
 }
 
-
-
-
-
-
-
-
-
 .container2{
     background: #7180B9;
     border-radius: 10px;
@@ -137,7 +129,7 @@ nav {
     align-items: center;
 }
 
-/* .mainHeadphone{
+.mainHeadphone{
     background: #EFE9F4;
     border-radius: 10px;
     box-shadow: -20px 20px 20px rgba(0, 0, 0, 0.5);
@@ -146,13 +138,8 @@ nav {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 200px;
+    width: 400px;
 }
-
-.mainHeadphone:hover{
-    box-shadow: -20px 20px 20px rgba(0, 0, 0, 0.5);
-    transform: scale(1.1);
-} */
 
 .container3{
     background: #EFE9F4;
@@ -202,7 +189,6 @@ nav {
     flex-wrap: wrap;
     background: #7180B9;
     transition: transform 2s;
-    cursor: pointer;
 }
 
 .bosePart:hover{
@@ -225,7 +211,6 @@ nav {
     flex-wrap: wrap;
     background: #7180B9;
     transition: transform 2s;
-    cursor: pointer;
 }
 
 .beatsPart:hover{
@@ -248,7 +233,6 @@ nav {
     flex-wrap: wrap;
     background: #7180B9;
     transition: transform 2s;
-    cursor: pointer;
 }
 
 .sonyPart:hover{
